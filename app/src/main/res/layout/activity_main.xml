@@ -4,12 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/mountain"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/screen"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="#95ffffff"
         android:text="" />
 
     <include
