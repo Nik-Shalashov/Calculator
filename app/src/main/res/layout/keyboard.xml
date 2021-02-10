@@ -4,37 +4,20 @@
     android:layout_gravity="center"
     android:columnCount="4">
 
-    <Button
-        android:id="@+id/buttonPercent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:textSize="30sp"
-        android:text="@string/button_percent" />
 
-    <Button
-        android:id="@+id/buttonClear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:textSize="30sp"
-        android:text="@string/button_ce" />
+
 
     <Button
         android:id="@+id/buttonFullClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
         android:layout_margin="4dp"
         android:textSize="30sp"
         android:text="@string/button_c" />
-
-    <Button
-        android:id="@+id/buttonDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:textSize="30sp"
-        android:text="@string/button_delete" />
 
     <Button
         android:id="@+id/button7"
@@ -133,19 +116,14 @@
         android:text="@string/button_subtraction" />
 
     <Button
-        android:id="@+id/buttonPlusOrMinus"
-        android:layout_width="wrap_content"
-        android:layout_height="87dp"
-        android:layout_gravity="center"
-        android:layout_margin="4dp"
-        android:text="@string/button_PlusMinus"
-        android:textSize="30sp" />
-
-    <Button
         android:id="@+id/button0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
         android:textSize="50sp"
         android:text="@string/button_0" />
 
