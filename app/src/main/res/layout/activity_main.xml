@@ -7,13 +7,19 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_settings" />
+
     <TextView
         android:id="@+id/view_result"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="120dp"
         android:background="#95ffffff"
         android:layout_margin="8dp"
-        android:textSize="60sp" />
+        android:textSize="40sp" />
 
     <include
         layout="@layout/keyboard"
