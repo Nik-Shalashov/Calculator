@@ -3,21 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/mountain"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/screen"
+        android:id="@+id/view_result"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="140dp"
         android:background="#95ffffff"
-        android:text="" />
+        android:layout_margin="8dp"
+        android:textSize="60sp" />
 
     <include
         layout="@layout/keyboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_margin="8dp"
+        android:layout_gravity="center" />
 
 </LinearLayout>
